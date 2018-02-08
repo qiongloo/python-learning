@@ -195,7 +195,7 @@ print([m + n for m in 'FJF' for n in 'qwe'] ) #['Fq', 'Jq', 'Fq', 'Fw', 'Jw', 'F
 #三层和三层以上的循环就很少用到
 #列出上级目录下的所有文件和目录名
 import os
-print([d for d in os.listdir('../')]) #['Lxf.iml', '01fisrt-process', '04advanced-features', '03function', '02python-base']
+print([d for d in os.listdir('../')]) #['Lxf.iml', '01第一个程序', '04高级特性', '03函数', '02python基础']
 
 #for循环其实可以同时使用两个甚至多个变量，比如dict的items()可以同时迭代key和value
 d = {'x': 'A', 'y': 'B', 'z': 'C' }
