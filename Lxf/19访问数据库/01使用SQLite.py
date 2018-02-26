@@ -56,7 +56,7 @@ conn.close()
 
 def get_score_in(low, high):
     ' 返回指定分数区间的名字，按分数从低到高排序 '
-    if not (isinstance(low,int) and isinstance(high,int))   :
+    if not (isinstance(low,int) and isinstance(high,int)):
         return '区间数字必须整型！'
     conn = sqlite3.connect(db_file)
     cursor = conn.cursor()
@@ -68,7 +68,7 @@ def get_score_in(low, high):
         list1.append(a[0])
     cursor.close()
     conn.close()
-    return  list1
+    return list1
 
 
 
