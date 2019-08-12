@@ -12,7 +12,7 @@ import mysql.connector
 #本地数据库
 #conn = mysql.connector.connect(user="test", password="test456852", database="test")
 #远程数据库连接
-conn = mysql.connector.connect(host='120.27.49.**', user='test', passwd='', db='Test', port=3306)
+conn = mysql.connector.connect(host='120.**.**.**', user='test', passwd='', db='Test', port=3306)
 cursor = conn.cursor()
 
 # 创建user表:
